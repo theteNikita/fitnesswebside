@@ -1,0 +1,305 @@
+body{
+    margin: 0;
+    padding:0 ;
+}
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(16, 86, 62);
+}
+/* navbar design css */
+/* Navbar container */
+.navbar {
+    background-color: rgb(93, 167, 141);
+    overflow: hidden;
+}
+
+/* Logo */
+.logo {
+    float: left;
+    padding:15px ;
+}
+.logo b{
+    color: white;
+    font-size:30px ;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+#sign{
+   height:50px ; 
+   width:100px ;
+   background-color:rgb(8, 225, 149) ;
+}
+/* home page design start */
+
+/* home page design end */
+
+/* Menu items */
+.menu {
+    float: right;
+    display: inline-flex;
+    padding:15px ;
+}
+
+/* Button */
+.button {
+    float: right;
+    margin-right: 20px;
+    margin-top: 8px;
+    background-color:rgb(9, 203, 135);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding:15px ;
+}
+
+/* Style links */
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-size:20px ;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Change color on hover */
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* home page start */
+#home {
+    background-image:url('homepage.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    display:grid ;
+    grid-template-columns: 1fr;
+}
+#heading{
+    
+    color: white;
+    margin:160px ;
+}
+#heading h1{
+    
+    color: white;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#heading i{
+    
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#heading input{
+    
+    color: white;
+    font-size: 30px;
+    background-color: rgb(93, 167, 141);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* home page end */
+
+/* about section start */
+#About{
+    text-align: center;
+    height:400px ;
+    width:700px ;
+    margin: auto;
+    background-color: rgb(142, 182, 168);
+}
+#About h1{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+#About p{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    letter-spacing:3px ;
+}
+
+
+/* about section end */
+
+/* gallary section start */
+.gallary{
+    margin-top: 10px;
+    height:100vh ;
+    width:100%; 
+    background-image:url('activity.jpg.jpeg') ;
+    background-size:cover ;
+    background-position: center;
+}
+/* gallary section end */
+/* goal section start */
+#goal{
+    margin-top: 10px;
+    height: 600px;
+    background-position:center ;
+    background-size:cover;
+}
+
+.goal1 {
+width:800px;
+margin: auto;
+}
+#para li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px ;
+    color:white ;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing:3px ;
+}
+#para h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:50px ;
+    color:white ;
+}
+#fitness{
+    background-image:url('page6.webp') ;
+    background-position:center ;
+    background-size:cover ;
+    height:600px ;
+    opacity:0.7 ;
+}
+/* goal section end */
+/* start with fitness img section */
+#img{
+    height:400px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+}
+#main{
+    margin:20px ;
+}
+.c1{
+    background-image: url('goal1.jpg');
+    background-size: cover;
+    background-position:center; 
+}
+.c2{
+    background-image: url('goal2.webp');
+    background-size: cover;
+    background-position:center; 
+}
+.c3{
+    background-image: url('goal3.jpg');
+    background-size: cover;
+    background-position:center; 
+}
+.c4{    
+    background-image: url('goal4.webp');
+    background-size: cover;
+    background-position:center; 
+}
+/* end with fitness img section */
+/* login page start */
+
+.login-container {
+    width: 600px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(8, 225, 149);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* login page end */
+/* last section css  start*/
+footer{
+    height:600px ;
+    width:100% ;
+    background-image:url("homepages/footer.jpg") ;
+    background-position:center ;
+    background-size:cover ;
+   }
+ #news h2{
+    color:white ;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right:100px ;
+ } 
+  .foo{
+    color:white ;
+    padding-top:200px ;
+    padding-left: 100px;
+  }
+  .foo h1{
+    font-size:4rem ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+   /* six section end */
+  
+   #last{
+    color:white ;
+    background-color:rgb(93, 167, 141) ;
+    height:700px ;
+   }
+   #bracket{
+    padding-top:100px ;
+   }
+   #last img{
+    background-color:white ;
+    height:30px ;
+    width:30px ;
+   }
+   #in{
+    width:300px ;
+    height:30px ;
+   }
+   #last h1{
+    font-size:25px ;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   #last h2{
+    font-size:30px ;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   #last h3{
+    font-size:40px ;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   #last p{
+    font-size:20px ;
+    letter-spacing:2px ;
+    word-spacing:2px ;
+   }
+
+
+/* last section css end */
